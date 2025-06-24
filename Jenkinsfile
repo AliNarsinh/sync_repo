@@ -2,7 +2,7 @@ pipeline {
     agent any 
 
     environment {
-        DEPLOY_BRANCH = 'main'
+        DEPLOY_BRANCH = 'mains'
     }
 
     stages {

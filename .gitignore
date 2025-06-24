@@ -14,3 +14,5 @@
 npm-debug.log
 # Sentry Config File
 .sentryclirc
+
+config.bat
