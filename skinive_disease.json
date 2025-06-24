@@ -1,0 +1,316 @@
+{
+  "categories": [
+    {
+      "diseases": [
+        {
+          "id": "6",
+          "label": "1B_skin",
+          "name": "Skin Without Pathology"
+        }
+      ],
+      "title_name": "No Pathologies"
+    },
+    {
+      "diseases": [
+        {
+          "id": "0",
+          "label": "1B_benign_nevus",
+          "name": "Benign Nevus"
+        },
+        {
+          "id": "4",
+          "label": "1B_papiloma_nevus",
+          "name": "Papillomatous Nevus"
+        },
+        {
+          "id": "2",
+          "label": "1B_halo_nevus",
+          "name": "Halo Nevus"
+        },
+        {
+          "id": "7",
+          "label": "1B_spitz_nevus",
+          "name": "Spitz Nevus"
+        },
+        {
+          "id": "3",
+          "label": "1B_hemangioma",
+          "name": "Hemangioma"
+        },
+        {
+          "id": "1",
+          "label": "1B_dermatofibroma",
+          "name": "Dermatofibroma"
+        },
+        {
+          "id": "5",
+          "label": "1B_pyogenic_granuloma",
+          "name": "Pyogenic Granuloma"
+        },
+        {
+          "id": "48",
+          "label": "1B_acral_nevus",
+          "name": "Acral nevus"
+        }
+      ],
+      "title_name": "Benign Lesions"
+    },
+    {
+      "diseases": [
+        {
+          "id": "29",
+          "label": "2P_dysplastic_nevus",
+          "name": "Dysplastic Nevus"
+        },
+        {
+          "id": "27",
+          "label": "2P_blue_nevus",
+          "name": "Blue Nevus"
+        },
+        {
+          "id": "31",
+          "label": "2P_lentigo",
+          "name": "Lentigo"
+        },
+        {
+          "id": "26",
+          "label": "2P_actinic_keratosis",
+          "name": "Actinic Keratosis"
+        },
+        {
+          "id": "32",
+          "label": "2P_seborrheic_keratosis",
+          "name": "Seborrheic Keratosis"
+        },
+        {
+          "id": "30",
+          "label": "2P_keratoakantoma",
+          "name": "Keratoakantoma"
+        },
+        {
+          "id": "28",
+          "label": "2P_bouen",
+          "name": "Bowen Disease"
+        }
+      ],
+      "title_name": "Precancerous Conditions"
+    },
+    {
+      "diseases": [
+        {
+          "id": "33",
+          "label": "3C_basal_cell_carcinoma",
+          "name": "Basal Cell Carcinoma"
+        },
+        {
+          "id": "36",
+          "label": "3C_squamous_cell_carcinoma",
+          "name": "Squamous Cell Carcinoma"
+        },
+        {
+          "id": "35",
+          "label": "3C_melanoma",
+          "name": "Melanoma"
+        },
+        {
+          "id": "34",
+          "label": "3C_lentigo_melanoma",
+          "name": "Lentigo-melanoma"
+        }
+      ],
+      "title_name": "Cancer"
+    },
+    {
+      "diseases": [
+        {
+          "id": "15",
+          "label": "2G_skin_mycosis",
+          "name": "Skin Mycosis"
+        },
+        {
+          "id": "16",
+          "label": "2G_onychomycosis",
+          "name": "Onychomycosis"
+        },
+        {
+          "id": "17",
+          "label": "2G_trichomycosis",
+          "name": "Trichomycosis"
+        },
+        {
+          "id": "46",
+          "label": "2G_pityriasis_versicolor",
+          "name": "Pityriasis versicolor"
+        }
+      ],
+      "title_name": "Fungal Infections"
+    },
+    {
+      "diseases": [
+        {
+          "id": "22",
+          "label": "2PS_psoriasis_vulgar",
+          "name": "Psoriasis Vulgaris"
+        },
+        {
+          "id": "21",
+          "label": "2PS_psoriasis_pustular",
+          "name": "Psoriasis Pustular"
+        },
+        {
+          "id": "18",
+          "label": "2PS_lichen_planus",
+          "name": "Lichen Planus"
+        },
+        {
+          "id": "23",
+          "label": "2PS_red_hair_lichen",
+          "name": "Pityriasis Rubra Pilaris Devergie"
+        },
+        {
+          "id": "24",
+          "label": "2PS_seborrheic_dermatitis",
+          "name": "Seborrheic Dermatitis"
+        },
+        {
+          "id": "20",
+          "label": "2PS_pink_lichen",
+          "name": "Pink Lichen"
+        },
+        {
+          "id": "25",
+          "label": "2PS_shining_versicolor",
+          "name": "Shining Versicolor"
+        },
+        {
+          "id": "19",
+          "label": "2PS_linear_lichen",
+          "name": "Linear Lichen"
+        }
+      ],
+      "title_name": "Papulosquamous Disorders"
+    },
+    {
+      "diseases": [
+        {
+          "id": "42",
+          "label": "3V_papiloma",
+          "name": "Papilloma"
+        },
+        {
+          "id": "45",
+          "label": "3V_wart_vulgaris",
+          "name": "Wart Vulgaris"
+        },
+        {
+          "id": "43",
+          "label": "3V_wart_plane",
+          "name": "Wart Plane"
+        },
+        {
+          "id": "44",
+          "label": "3V_wart_plantar",
+          "name": "Wart Plantar"
+        },
+        {
+          "id": "41",
+          "label": "3V_molluscum_contagiosum",
+          "name": "Molluscum Contagiosum"
+        }
+      ],
+      "title_name": "Viral Diseases"
+    },
+    {
+      "diseases": [
+        {
+          "id": "38",
+          "label": "3V_herpes_simplex",
+          "name": "Herpes Simplex"
+        },
+        {
+          "id": "37",
+          "label": "3V_herpes_genitalis",
+          "name": "Herpes Genitalis"
+        },
+        {
+          "id": "40",
+          "label": "3V_herpes_zoster",
+          "name": "Herpes Zoster"
+        },
+        {
+          "id": "39",
+          "label": "3V_herpes_varicella_zoster",
+          "name": "Varicella Zoster"
+        }
+      ],
+      "title_name": "Herpesvirus Infections"
+    },
+    {
+      "diseases": [
+        {
+          "id": "10",
+          "label": "2A_acne_vulgaris",
+          "name": "Acne Vulgaris"
+        },
+        {
+          "id": "9",
+          "label": "2A_acne_pustular",
+          "name": "Acne Pustular"
+        },
+        {
+          "id": "8",
+          "label": "2A_acne_cystic",
+          "name": "Acne Cystic"
+        },
+        {
+          "id": "11",
+          "label": "2A_comedone_closed",
+          "name": "Comedone Closed"
+        },
+        {
+          "id": "12",
+          "label": "2A_comedone_open",
+          "name": "Comedone Open"
+        },
+        {
+          "id": "13",
+          "label": "2A_milium",
+          "name": "Milium"
+        },
+        {
+          "id": "14",
+          "label": "2A_rosacea",
+          "name": "Rosacea"
+        }
+      ],
+      "title_name": "Acne"
+    },
+    {
+      "diseases": [
+        {
+          "id": "47",
+          "label": "4E_eczema",
+          "name": "Eczema"
+        }
+      ],
+      "title_name": "Eczema"
+    },
+    {
+      "diseases": [
+        {
+          "id": "49",
+          "label": "4D_atopic_dermatitis",
+          "name": "Atopic dermatitis"
+        },
+        {
+          "id": "50",
+          "label": "4D_dermatitis",
+          "name": "Dermatitis"
+        }
+      ],
+      "title_name": "Dermatitis"
+    }
+  ],
+  "error": null,
+  "status": true
+}

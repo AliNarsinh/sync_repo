@@ -1,0 +1,42 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Logging in to Docker Hub...
+      - echo "Abacus@123" | docker login --username "lifelinqdocker" --password-stdin
+      - echo Logging in to Amazon ECR...
+      - aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 071838617459.dkr.ecr.us-east-2.amazonaws.com
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Building the Docker image...          
+      - docker build -t binah-frontend .
+      - docker tag binah-frontend:latest 071838617459.dkr.ecr.us-east-2.amazonaws.com/binah-frontend:latest      
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Pushing the Docker image...
+      - docker push 071838617459.dkr.ecr.us-east-2.amazonaws.com/binah-frontend:latest
+      - echo Writing image definitions file...
+      - printf '[{"name":"binah-frontend","imageUri":"%s"}]' 071838617459.dkr.ecr.us-east-2.amazonaws.com/binah-frontend:latest > imagedefinitions.json
+      - printf '{"ImageURI":"%s"}' 071838617459.dkr.ecr.us-east-2.amazonaws.com/binah-frontend:latest > imageDetail.json
+artifacts:
+  files: 
+    - 'imagedefinitions.json'
+    - 'appspec.yaml'
+    - 'taskdef.json'
+    - 'imageDetail.json'
+  secondary-artifacts:
+    DefinitionArtifact:
+      files:
+        - appspec.yaml
+        - taskdef.json
+    ImageArtifact:
+      files:
+        - imageDetail.json
+
+
+# Pure Deployment Test By Irteza
+
+        
